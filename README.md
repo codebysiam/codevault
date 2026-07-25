@@ -1,4 +1,4 @@
-# CodeVault
+# CPCodeVault
 
 A collection of my competitive programming practice, algorithm implementations, and problem-solving notes.
 
