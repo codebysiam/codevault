@@ -54,8 +54,12 @@ void quickSort(vector<int>& a, int low, int high){
 
 int main(){
     ios::sync_with_stdio(false); cin.tie(nullptr);
-    vector<int> a = {2, 0, 1, 4, 3, 6};
-    int n = a.size();
+    int n;
+    cin >> n;
+    vector<int> a(n);
+    for(auto& x: a){
+        cin >> x;
+    }
     quickSort(a, 0, n-1);
     for(int x: a){
         cout << x << ' ';
